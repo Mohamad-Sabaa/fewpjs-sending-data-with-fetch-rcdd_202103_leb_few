@@ -16,4 +16,3 @@ function submitData(name, email) {
 })
 
 }
-

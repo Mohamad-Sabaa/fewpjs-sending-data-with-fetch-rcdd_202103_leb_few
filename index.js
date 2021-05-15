@@ -2,7 +2,7 @@
 
 function submitData(name, email) {
   return fetch('http://localhost:3000/users', {
-    method: POST,
+    method: "POST",
     headers: {
       'Content-type' = 'application/json',
       'Accept' = 'application/json'

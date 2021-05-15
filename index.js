@@ -15,3 +15,4 @@ function submitData(name, email) {
   .then(resp => resp.json())
   .then(obj => console.log(obj))
 }
+submitData();
